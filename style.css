@@ -2,3 +2,512 @@
     font-family: 'Raleway';
     src: url('fonts/Raleway-Light.ttf');
 }
+
+h1, p, li
+{
+    font-family: 'Raleway', sans-serif ;
+}
+
+li
+{
+    list-style: none;
+}
+
+img
+{
+    object-fit:cover;
+    width: 100%;
+    height: 11rem;
+}
+.filters_icons {
+    background-color: #deebff;
+    height: inherit;
+    width: 3rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+}
+
+.bluestar {
+    color: #0065fc;
+}
+
+.bloc_page
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+body
+{
+    background-color: #f2f2f2;
+}
+.rsv-header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo
+{
+    width: 100px;
+    height: 90px;
+    object-position: left;
+    object-fit: contain;
+    flex-grow: 1;
+}
+
+.rsv-header__nav--menu
+{
+   display:flex;
+   margin-top: 07%;
+}
+
+.rsv-header__nav--menu--act
+{
+    margin-left: 2rem;
+}
+
+.rsv-header__nav--menu--ins
+{
+    margin-left: 2rem;
+}
+
+.rsv-header__sous--menu--titre
+{
+    font-size: x-large;
+}
+
+.rsv-header__form
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+.rsv-header__form__recherche
+{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.rsv-header__recherche--item
+{
+    margin: 5%;
+}
+
+#recherche
+{
+    height: 100%;
+}
+
+.rsv-filtre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rsv-filtre--titre
+{
+    font-size: small;
+}
+
+.rsv-filtre__eco
+{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 3rem;
+    margin-left: 1em;
+    height: 3em;
+
+}
+
+.rsv-filtre__eco--itm--money
+{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    margin: 0em 1em;
+}
+
+.rsv-filtre__eco--title
+{
+    margin-right: 1em;
+    font-size: small;
+}
+
+.rsv-filtre__fam
+{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    border: 1px solid black;
+    border-radius: 3em;
+    height: 3em;
+}
+
+.rsv-filtre__fam--item--perso
+{
+    margin: 0em 1em;
+}
+
+.rsv-filtre__fam--title
+{
+    margin-right: 1em;
+    font-size: small;
+}
+
+
+.rsv-filtre__rom
+{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    border: 1px solid black;
+    border-radius: 3em;
+    height: 3em;
+}
+
+.rsv-filtre__rom--item--coeur
+{
+    margin: 0em 1em;
+}
+
+.rsv-filtre__rom--title
+{
+    margin-right: 1em;
+    font-size: small;
+}
+
+.rsv-filtre__ani
+{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    border: 1px solid black;
+    border-radius: 3em;
+    height: 3em;
+}
+
+.rsv-filtre__ani--item--chien
+{
+    margin: 0em 1em;
+}
+
+.rsv-filtre__ani--title
+{
+    margin-right: 1em;
+    font-size: small;
+}
+
+.rsv-information
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.rsv-information--item
+{
+    margin-right: 1%;
+}
+
+.rsv-main__sectionOne--heb
+{
+    width: 70%;
+    border-radius: 1em;
+    border: 1px solid black;
+}
+
+.rsv-main__sectionOne--heb--titre
+{
+    margin-left: 2rem;
+    margin-top: 2em;
+}
+
+.rsv-main__sectionOne
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.premierblock
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+}
+
+.Auberge_La_Cannebière
+{
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.Auberge_La_Cannebière--info
+{
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.Hôtel_du_port
+{
+    margin-right: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.Hôtel_du_port--info
+{
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.Hôtel_Les_mouettes
+{
+    margin-right: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.Hôtel_Les_mouettes--info
+{
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.deuxiemeblock
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Hôtel_de_la_mer
+{
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+    height: 27em;
+    width: 26em;
+}
+
+.Hôtel_de_la_mer--info
+{
+    margin-left: 1em;
+}
+
+.Auberge_Le_Panier
+{
+    margin-right: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+    height: 22em;
+    width: 32em;
+}
+
+.Auberge_Le_Panier--info
+{
+    margin-left: 1em;
+}
+
+.Hôtel_chez_Amina
+{
+    margin-right: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+    height: 28em;
+    width: 16em;
+}
+
+.Hôtel_chez_Amina--info
+{
+    margin-left: 1em;
+}
+
+.rsv-main__sectionOne--heb--affi
+{
+    font-weight: bold;
+    margin: 2em;
+}
+
+.rsv-main__sectionOne--pop
+{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    margin-left: 2%;
+    border: 2px solid black;
+}
+
+.titre_aside
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Hôtel_Le_soleil_du_matin
+{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin: 2em;
+    margin-top: 1em;
+}
+
+.Au_coeur_de_l_eau_Chambres_d_hôtes
+{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin: 0em 2em;
+    margin-bottom: 2em;
+}
+
+.Hôtel_Tout_bleu_et_Blanc
+{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin: 0em 2em;
+    width: 19em;
+}
+
+.rsv-main__sectionTwo--activ
+{
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.grosblock
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Vieux_Port
+{
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-right: 3em;
+}
+
+.Fort_de_Pomègues
+{
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-bottom: 3em;
+}
+
+.Iles_du_frioul
+{
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.troisiemeblock
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+.Parc_National_des_Calanques
+{
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-right: 2em;
+}   
+
+.quatriemeblock
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Notre_Dame_de_la_Garde
+{
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-bottom: 3em;
+}
+
+.Parc_Longchamp
+{
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.rsv-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border: 2px solid black;
+}
+
+.rsv-footer__listOne--pro
+{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.rsv-footer__listOne--fon
+{
+    margin-bottom: 1em;
+}
+
+.rsv-footer__listOne--condi
+{
+    margin-bottom: 1em; 
+}
+
+.rsv-footer__listOne--don
+{
+    margin-bottom: 1em;
+}
+
+.rsv-footer__listTwo--heb
+{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.rsv-footer__listTwo--char
+{
+    margin-bottom: 1em;
+}
+
+.rsv-footer__listTwo--soum
+{
+    margin-bottom: 1em;
+}
+
+.rsv-footer__listThree--assis
+{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.rsv-footer__listThree--centre
+{
+    margin-bottom: 1em;
+}
+
+.rsv-footer__listThree--contac
+{
+    margin-bottom: 1em;
+}
