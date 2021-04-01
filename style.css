@@ -41,17 +41,14 @@ img
     margin-left: 8%;
     margin-right: 8%;
 }
-body
-{
-    background-color: #f2f2f2;
-}
+
 .rsv-header
 {
     display: flex;
     flex-direction: row;
 }
 
-.logo
+.rsv-header__logo
 {
     width: 100px;
     height: 90px;
@@ -87,21 +84,46 @@ body
     flex-direction: row;
     margin-bottom: 2em;
 }
+
+.rsv-header__sous--menu
+{
+    margin-bottom: 2%;
+}
+
 .rsv-header__form__recherche
 {
     display: flex;
-    border: 1px solid black;
     border-radius: 1em;
 }
 
 .rsv-header__recherche--item
 {
-    margin: 5%;
+    height: 50px;
+    width: 3%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    border: 1px solid;
+}
+
+.rsv-header__recherche--barre
+{
+    height: 100%;
 }
 
 #recherche
 {
-    height: 100%;
+    height: 50px;
+}
+
+.rsv-header__recherche--bouton--corp
+{
+    height: 101%;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    width: 117%;
+    background-color: blue;
+    color: white;
 }
 
 .rsv-filtre
@@ -132,7 +154,7 @@ body
     display: flex;
     align-items: center;
     height: 3rem;
-    margin: 0em 1em;
+    margin-right: 1em;
 }
 
 .rsv-filtre__eco--title
@@ -153,7 +175,7 @@ body
 
 .rsv-filtre__fam--item--perso
 {
-    margin: 0em 1em;
+    margin-right: 1em;
 }
 
 .rsv-filtre__fam--title
@@ -175,7 +197,7 @@ body
 
 .rsv-filtre__rom--item--coeur
 {
-    margin: 0em 1em;
+    margin-right: 1em;
 }
 
 .rsv-filtre__rom--title
@@ -196,7 +218,7 @@ body
 
 .rsv-filtre__ani--item--chien
 {
-    margin: 0em 1em;
+    margin-right: 1em;
 }
 
 .rsv-filtre__ani--title
@@ -224,6 +246,7 @@ body
     width: 70%;
     border-radius: 1em;
     border: 1px solid black;
+    background-color: #F2F2F2;
 }
 
 .rsv-main__sectionOne--heb--titre
@@ -251,6 +274,16 @@ body
     margin-right: 2em;
     border: 1px solid black;
     border-radius: 1em;
+    background-color: white;
+    width: 68%;
+    height: 8%;
+}
+
+.Auberge_La_Cannebière--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 8em;
 }
 
 .Auberge_La_Cannebière--info
@@ -259,11 +292,26 @@ body
     margin-bottom: 1em;
 }
 
+.Auberge_La_Cannebière--info--titre
+{
+    font-weight: bold;
+}
+
 .Hôtel_du_port
 {
     margin-right: 2em;
     border: 1px solid black;
     border-radius: 1em;
+    background-color: white;
+    width: 68%;
+    height: 0%;
+}
+
+.Hôtel_du_port--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 8em;
 }
 
 .Hôtel_du_port--info
@@ -272,17 +320,36 @@ body
     margin-bottom: 1em;
 }
 
+.Hôtel_du_port--info--titre
+{
+    font-weight: bold;
+}
+
 .Hôtel_Les_mouettes
 {
     margin-right: 2em;
     border: 1px solid black;
     border-radius: 1em;
+    background-color: white;
+    width: 68%;
+}
+
+.Hôtel_Les_mouettes--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 8em;
 }
 
 .Hôtel_Les_mouettes--info
 {
     margin-left: 1em;
     margin-bottom: 1em;
+}
+
+.Hôtel_Les_mouettes--info--titre
+{
+    font-weight: bold;
 }
 
 .deuxiemeblock
@@ -297,13 +364,26 @@ body
     margin-right: 2em;
     border: 1px solid black;
     border-radius: 1em;
-    height: 27em;
-    width: 26em;
+    background-color: white;
+    width: 50%;
+}
+
+.Hôtel_de_la_mer--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 8em;
 }
 
 .Hôtel_de_la_mer--info
 {
     margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.Hôtel_de_la_mer--info--titre
+{
+    font-weight: bold;
 }
 
 .Auberge_Le_Panier
@@ -311,13 +391,26 @@ body
     margin-right: 2em;
     border: 1px solid black;
     border-radius: 1em;
-    height: 22em;
-    width: 32em;
+    background-color: white;
+    width: 50%;
+}
+
+.Auberge_Le_Panier--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 8em;
 }
 
 .Auberge_Le_Panier--info
 {
     margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.Auberge_Le_Panier--info--titre
+{
+    font-weight: bold;
 }
 
 .Hôtel_chez_Amina
@@ -325,13 +418,26 @@ body
     margin-right: 2em;
     border: 1px solid black;
     border-radius: 1em;
-    height: 28em;
-    width: 16em;
+    background-color: white;
+    width: 50%;
+}
+
+.Hôtel_chez_Amina--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 8em;
 }
 
 .Hôtel_chez_Amina--info
 {
     margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.Hôtel_chez_Amina--info--titre
+{
+    font-weight: bold;
 }
 
 .rsv-main__sectionOne--heb--affi
@@ -346,7 +452,9 @@ body
     flex-direction: column;
     width: 28%;
     margin-left: 2%;
-    border: 2px solid black;
+    border: 1px solid black;
+    background-color: #F2F2F2;
+    border-radius: 1em;
 }
 
 .titre_aside
@@ -362,8 +470,31 @@ body
     display: flex;
     border: 1px solid black;
     border-radius: 1em;
-    margin: 2em;
+    margin: 1em;
     margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: white;
+    height: 18%;
+    width: 90%;
+}
+
+.Hôtel_Le_soleil_du_matin--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    width: 92%;
+    height: 100%;
+}
+
+.Hôtel_Le_soleil_du_matin--info
+{
+    width: 182%;
+    height: 100%;
+}
+
+.Hôtel_Le_soleil_du_matin--info--titre
+{
+    font-weight: bold;
 }
 
 .Au_coeur_de_l_eau_Chambres_d_hôtes
@@ -371,8 +502,29 @@ body
     display: flex;
     border: 1px solid black;
     border-radius: 1em;
-    margin: 0em 2em;
+    margin: 0em 1em;
     margin-bottom: 2em;
+    background-color: white;
+    height: 18%;
+    width: 95%;
+}
+
+.Au_coeur_de_l_eau_Chambres_d_hôtes--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    width: 92%;
+    height: 100%;
+}
+
+.Au_coeur_de_l_eau_Chambres_d_hôtes--info
+{
+    width: 182%;
+}
+
+.Au_coeur_de_l_eau_Chambres_d_hôtes--info--titre
+{
+    font-weight: bold;
 }
 
 .Hôtel_Tout_bleu_et_Blanc
@@ -380,8 +532,28 @@ body
     display: flex;
     border: 1px solid black;
     border-radius: 1em;
-    margin: 0em 2em;
-    width: 19em;
+    margin: 0em 1em;
+    background-color: white;
+    width: 95%;
+    height: 18%;
+}
+
+.Hôtel_Tout_bleu_et_Blanc--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    width: 92%;
+    height: 100%;
+}
+
+.Hôtel_Tout_bleu_et_Blanc--info
+{
+    width: 182%;
+}
+
+.Hôtel_Tout_bleu_et_Blanc--info--titre
+{
+    font-weight: bold;
 }
 
 .rsv-main__sectionTwo--activ
@@ -405,6 +577,19 @@ body
     margin-right: 3em;
 }
 
+.Vieux_Port--taille--photo
+{
+    height: 28em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Vieux_Port--info
+{
+    margin-left: 1em;
+    font-weight: bold;
+}
+
 .Fort_de_Pomègues
 {
     border: 1px solid black;
@@ -412,10 +597,34 @@ body
     margin-bottom: 3em;
 }
 
+.Fort_de_Pomègues--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Fort_de_Pomègues--info
+{
+    margin-left: 1em;
+    font-weight: bold;
+}
+
 .Iles_du_frioul
 {
     border: 1px solid black;
     border-radius: 1em;
+}
+
+.Iles_du_frioul--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Iles_du_frioul--info
+{
+    margin-left: 1em;
+    font-weight: bold;
 }
 
 .troisiemeblock
@@ -430,7 +639,20 @@ body
     border: 1px solid black;
     border-radius: 1em;
     margin-right: 2em;
-}   
+}
+
+.Parc_National_des_Calanques--taille--photo
+{
+    height: 28em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Parc_National_des_Calanques--info
+{
+    margin-left: 1em;
+    font-weight: bold;  
+}
 
 .quatriemeblock
 {
@@ -445,18 +667,49 @@ body
     margin-bottom: 3em;
 }
 
+.Notre_Dame_de_la_Garde--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Notre_Dame_de_la_Garde--info
+{
+    margin-left: 1em;
+    font-weight: bold;
+}
+
 .Parc_Longchamp
 {
     border: 1px solid black;
     border-radius: 1em;
 }
 
+.Parc_Longchamp--taille--photo
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.Parc_Longchamp--info
+{
+    margin-left: 1em;
+    font-weight: bold;
+}
+
 .rsv-footer
 {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    border: 2px solid black;
+    justify-content: start;
+    background-color: #F2F2F2;
+}
+
+.rsv-footer__listOne
+{
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .rsv-footer__listOne--pro
@@ -480,6 +733,12 @@ body
     margin-bottom: 1em;
 }
 
+.rsv-footer__listTwo
+{
+    width: 36%;
+    margin-top: 2em;
+}
+
 .rsv-footer__listTwo--heb
 {
     font-weight: bold;
@@ -494,6 +753,11 @@ body
 .rsv-footer__listTwo--soum
 {
     margin-bottom: 1em;
+}
+
+.rsv-footer__listThree
+{
+    margin-top: 2em;
 }
 
 .rsv-footer__listThree--assis
